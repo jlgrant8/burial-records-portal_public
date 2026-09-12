@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link rel="stylesheet" href="style.css?v=4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="about-sidebar">
+            <div class="about-title">
+                About this Portal
+            </div>
+        </div>
+        <div class="main">
+            <div class="btm" style="width: 100%; justify-content: space-between;">
+                <div class="about">
+                    <p><b>About the Portal</b></p><br>
+                    <p><u>General</u></p>
+                    <p>
+                        This portal provides access to burial records for Callander Cemetery, published by Stirling Council. 
+                        Users can search by name, discover others recorded in the same grave, and use the location 
+                        information to identify where the grave is situated within the cemetery. This is an independent project and is not 
+                        affiliated with or endorsed by Stirling Council.
+                    </p><br>
+                    <p><u>GPS Coordinates</u></p>
+                    <p>
+                        The GPS coordinates available on this portal are approximate and do not represent precise surveyed positions.  
+                        They are provided as a guide to help users locate individual graves within the cemetery.  
+                        In a small number of cases where a grave was not marked on the available lair map, a GPS location has not been provided.
+                    </p><br><br>
+                    <p><b>Data & Sources</b></p><br>
+                    <p><u>Source data</u></p>
+                    <p>
+                        Burial records are sourced from Stirling Council in Scotland through its 
+                        <a href="https://data.stirling.gov.uk/datasets/stirling-council::callander-cemeteries-burial-records-open-data/about">Open Data</a> service.
+                    </p><br>
+                    <p><u>Additional Information</u></p>
+                    <p>
+                        The Council's records have been converted to CSV format and incorporated into this portal 
+                        to make them searchable and easier to explore. GPS coordinates were derived using mapping and 
+                        GIS tools, including ArcGIS, in conjunction with a lair map and onsite observations.
+                    </p><br>
+                    <p>
+                        The original Stirling Council dataset did not include subplot information. Subplots shown in 
+                        this portal have been independently identified by comparing the records with gravestone 
+                        inscriptions through onsite investigation.  These additions are not part of the original 
+                        Stirling Council dataset.
+                    </p><br>
+                    <p><u>Data Limitations</u></p>
+                    <p>
+                        The information presented here may contain errors or omissions.  
+                        It should not be considered a replacement for official Council records.
+                    </p><br>
+                    <p><u>Licence</u></p>
+                    <p>
+                        Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">
+                        Open Government Licence v3.0.</a>
+                    </p>
+                </div>
+                <div class="drop-menu" style="margin-top: 2.7%; margin-right:26px">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="hamburger">
+                    ☰
+                    </label>
+                    <nav class="dropdown">
+                        <a href="/">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </nav> 
+                </div> 
+            </div>
+        </div>
+        <script src="static/app.js?v=1"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+# --- Secrets ---
+.env
+*.env
+secrets.txt
+config_secret.py
+*.key
+*.pem
+
+# --- Python auto-generated ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Databases (regenerated/local data, not source) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE clutter ---
+.vscode/
+.idea/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Large or generated data (uncomment if needed) ---
+# *.csv
+# data/large_files/
+
+# --- Build/output folders ---
+build/
+dist/
+*.egg-info/
+
+# --- Misc - Specific to this project ---
+docs/
+helpers/

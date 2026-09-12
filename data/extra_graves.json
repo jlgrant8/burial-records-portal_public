@@ -1,0 +1,518 @@
+{
+  "TB-1": {
+    "lat": null,
+    "lon": null,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-2": {
+    "lat": null,
+    "lon": null,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-3": {
+    "lat": null,
+    "lon": null,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-4": {
+    "lat": null,
+    "lon": null,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-5": {
+    "lat": null,
+    "lon": null,
+    "section": "TB",
+    "subplot": null
+  },
+  "DG-12": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-13": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-14": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-15": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-16": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-17": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-18": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-19": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-20": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-21": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-22": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-23": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-24": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-25": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-27": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-29": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-30": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-31": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-33": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-34": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-35": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-36": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-37": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-38": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-39": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-42": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-43": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-44": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-45": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-46": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-47": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-48": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-49": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-50": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-51": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-52": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-53": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-54": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-55": {
+    "lat": null,
+    "lon": null,
+    "section": "DG",
+    "subplot": null
+  },
+  "Main-1553": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1554": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1555": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1556": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1557": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1559": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1561": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1562": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1563": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1565": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1567": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1569": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1571": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1573": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1575": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1577": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1579": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1581": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1583": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1585": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1587": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1589": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1591": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1593": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1595": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1597": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1599": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1601": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1603": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1605": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1607": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1609": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1611": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1613": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1615": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1617": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-1619": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Main-111111": {
+    "lat": null,
+    "lon": null,
+    "section": "Main",
+    "subplot": null
+  },
+  "Unknown-1": {
+    "lat": null,
+    "lon": null,
+    "section": "Unknown",
+    "subplot": null
+  },
+  "Unknown-2": {
+    "lat": null,
+    "lon": null,
+    "section": "Unknown",
+    "subplot": null
+  },
+  "Unknown-3": {
+    "lat": null,
+    "lon": null,
+    "section": "Unknown",
+    "subplot": null
+  },
+  "Unknown-4": {
+    "lat": null,
+    "lon": null,
+    "section": "Unknown",
+    "subplot": null
+  }
+}

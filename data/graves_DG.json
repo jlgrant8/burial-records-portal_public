@@ -1,0 +1,332 @@
+{
+  "DG-23": {
+    "lat": 56.23696447,
+    "lon": -4.19109159,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-24": {
+    "lat": 56.23697601,
+    "lon": -4.19108579,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-25": {
+    "lat": 56.23698756,
+    "lon": -4.19107999,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-26": {
+    "lat": 56.23699911,
+    "lon": -4.19107419,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-27": {
+    "lat": 56.23701066,
+    "lon": -4.19106839,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-28": {
+    "lat": 56.2370222,
+    "lon": -4.1910626,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-29": {
+    "lat": 56.23703375,
+    "lon": -4.1910568,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-30": {
+    "lat": 56.2370453,
+    "lon": -4.191051,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-31": {
+    "lat": 56.23705685,
+    "lon": -4.1910452,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-32": {
+    "lat": 56.23706839,
+    "lon": -4.1910394,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-33": {
+    "lat": 56.23707994,
+    "lon": -4.1910336,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-34": {
+    "lat": 56.23707367,
+    "lon": -4.19099656,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-35": {
+    "lat": 56.23706213,
+    "lon": -4.19100236,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-36": {
+    "lat": 56.23705058,
+    "lon": -4.19100816,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-37": {
+    "lat": 56.23703903,
+    "lon": -4.19101395,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-38": {
+    "lat": 56.23702748,
+    "lon": -4.19101975,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-39": {
+    "lat": 56.23701594,
+    "lon": -4.19102555,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-40": {
+    "lat": 56.23700439,
+    "lon": -4.19103135,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-41": {
+    "lat": 56.23699284,
+    "lon": -4.19103715,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-42": {
+    "lat": 56.2369813,
+    "lon": -4.19104295,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-43": {
+    "lat": 56.23696975,
+    "lon": -4.19104875,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-44": {
+    "lat": 56.2369582,
+    "lon": -4.19105454,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-12": {
+    "lat": 56.23709068,
+    "lon": -4.19111736,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-13": {
+    "lat": 56.23707931,
+    "lon": -4.19112267,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-14": {
+    "lat": 56.23706794,
+    "lon": -4.19112799,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-15": {
+    "lat": 56.23705658,
+    "lon": -4.1911333,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-16": {
+    "lat": 56.23704521,
+    "lon": -4.19113862,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-17": {
+    "lat": 56.23703384,
+    "lon": -4.19114393,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-18": {
+    "lat": 56.23702247,
+    "lon": -4.19114925,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-19": {
+    "lat": 56.2370111,
+    "lon": -4.19115456,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-20": {
+    "lat": 56.23699974,
+    "lon": -4.19115988,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-21": {
+    "lat": 56.23698837,
+    "lon": -4.19116519,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-22": {
+    "lat": 56.236977,
+    "lon": -4.19117051,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-11": {
+    "lat": 56.23710411,
+    "lon": -4.19118339,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-10": {
+    "lat": 56.23709211,
+    "lon": -4.19118919,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-9": {
+    "lat": 56.23708012,
+    "lon": -4.19119499,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-8": {
+    "lat": 56.23706812,
+    "lon": -4.19120079,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-7": {
+    "lat": 56.23705613,
+    "lon": -4.19120659,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-6": {
+    "lat": 56.23704413,
+    "lon": -4.19121239,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-5": {
+    "lat": 56.23703214,
+    "lon": -4.19121818,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-4": {
+    "lat": 56.23702014,
+    "lon": -4.19122398,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-3": {
+    "lat": 56.23700815,
+    "lon": -4.19122978,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-2": {
+    "lat": 56.23699616,
+    "lon": -4.19123558,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-1": {
+    "lat": 56.23698416,
+    "lon": -4.19124138,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-45": {
+    "lat": 56.23694745,
+    "lon": -4.19098443,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-46": {
+    "lat": 56.23695883,
+    "lon": -4.190979,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-47": {
+    "lat": 56.2369702,
+    "lon": -4.19097357,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-48": {
+    "lat": 56.23698158,
+    "lon": -4.19096814,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-49": {
+    "lat": 56.23699295,
+    "lon": -4.19096272,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-50": {
+    "lat": 56.23700433,
+    "lon": -4.19095729,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-51": {
+    "lat": 56.2370157,
+    "lon": -4.19095186,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-52": {
+    "lat": 56.23702707,
+    "lon": -4.19094643,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-53": {
+    "lat": 56.23703845,
+    "lon": -4.19094101,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-54": {
+    "lat": 56.23704982,
+    "lon": -4.19093558,
+    "section": "DG",
+    "subplot": null
+  },
+  "DG-55": {
+    "lat": 56.2370612,
+    "lon": -4.19093015,
+    "section": "DG",
+    "subplot": null
+  }
+}

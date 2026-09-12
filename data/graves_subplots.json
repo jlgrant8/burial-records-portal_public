@@ -1,0 +1,74 @@
+{
+  "CN-13A": {
+    "lat": 56.23659482,
+    "lon": -4.19180314,
+    "section": "CN",
+    "subplot": "A"
+  },
+  "CN-64D": {
+    "lat": 56.23645069,
+    "lon": -4.19132036,
+    "section": "CN",
+    "subplot": "D"
+  },
+  "CN-64C": {
+    "lat": 56.23645283,
+    "lon": -4.1913407,
+    "section": "CN",
+    "subplot": "C"
+  },
+  "CN-64B": {
+    "lat": 56.23645619,
+    "lon": -4.19136049,
+    "section": "CN",
+    "subplot": "B"
+  },
+  "CN-64A": {
+    "lat": 56.23645833,
+    "lon": -4.19137534,
+    "section": "CN",
+    "subplot": "A"
+  },
+  "CN-129A": {
+    "lat": 56.23643205,
+    "lon": -4.19138908,
+    "section": "CN",
+    "subplot": "A"
+  },
+  "CN-129B": {
+    "lat": 56.23642899,
+    "lon": -4.19137314,
+    "section": "CN",
+    "subplot": "B"
+  },
+  "CN-129C": {
+    "lat": 56.23642563,
+    "lon": -4.19135609,
+    "section": "CN",
+    "subplot": "C"
+  },
+  "CN-129D": {
+    "lat": 56.23642441,
+    "lon": -4.1913352,
+    "section": "CN",
+    "subplot": "D"
+  },
+  "CN-153A": {
+    "lat": 56.23645559,
+    "lon": -4.19180314,
+    "section": "CN",
+    "subplot": "A"
+  },
+  "Main-1491A": {
+    "lat": 56.23684595,
+    "lon": -4.19101529,
+    "section": "Main",
+    "subplot": "A"
+  },
+  "Main-1491B": {
+    "lat": 56.23685358,
+    "lon": -4.19101079,
+    "section": "Main",
+    "subplot": "B"
+  }
+}

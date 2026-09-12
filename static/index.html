@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Callander Cemetery Burial Records Portal</title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="static/style.css?v=5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="side-title">Search the Record</div>
+                <form autocomplete="off" onsubmit="searchGrave(); document.activeElement.blur(); return false;">
+                    <input class="searchBox" id="forenameBox" placeholder="Forename" />
+                    <input class="searchBox" id="surnameBox" placeholder="Surname" />
+                    <br>
+                    <button class="btn-submit" type="submit">Search</button>
+                </form>            
+            <div id="result"></div>
+        </div>
+        <div class="main">
+            <div class="top">
+                <div>
+                    <div class="main-title">Callander Cemetery</div>
+                    <div class="sub-title">Burial records and grave locations for Callander Cemetery, Scotland</div>
+                </div>
+                <div class="drop-menu">
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="hamburger">
+                    ☰
+                    </label>
+                    <nav class="dropdown">
+                        <a href="/">Home</a>
+                        <a href="static/about.html">About</a>
+                        <a href="static/contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>  
+            <div class="mid">
+                <div id="map"></div>
+            </div>
+            <div class="btm">
+                <div class="grave-container">
+                    <div id="graveTitle"></div>
+                    <div id="graveTableTitle"></div>
+                    <div id="graveInfo"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="static/app.js?v=1"></script>
+    </div>
+</body>
+<footer>
+    <p>
+        <b>Data source:</b> <a href="https://data.stirling.gov.uk/datasets/stirling-council::callander-cemeteries-burial-records-open-data/about">
+            Stirling Council Open Data</a> · Data adapted and mapped for this portal
+    </p>
+    <p>
+        Contains public sector information licensed under the 
+        <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0.
+        </a>
+    </p>
+    <p>
+        <a href="static/about.html">About</a> |  
+        <a href="static/contact.html"> Contact</a>
+    </p>
+</footer>
+</html>

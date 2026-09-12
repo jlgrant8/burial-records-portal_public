@@ -1,0 +1,32 @@
+{
+  "TB-5": {
+    "lat": 56.23689066,
+    "lon": -4.19101358,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-4": {
+    "lat": 56.23690152,
+    "lon": -4.19100802,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-3": {
+    "lat": 56.23691239,
+    "lon": -4.19100246,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-2": {
+    "lat": 56.23692325,
+    "lon": -4.1909969,
+    "section": "TB",
+    "subplot": null
+  },
+  "TB-1": {
+    "lat": 56.23693411,
+    "lon": -4.19099134,
+    "section": "TB",
+    "subplot": null
+  }
+}
