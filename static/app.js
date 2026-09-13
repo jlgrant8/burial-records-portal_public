@@ -2,6 +2,26 @@
 // Handles the interactive map and communicates with the FastAPI backend
 
 // =============================================
+// LOAD NAMES AND GPS
+// =============================================
+
+let NAMES = [];
+let GRAVES = [];
+
+fetch("../data/names.json")
+    .then(response => response.json())
+    .then(data => {
+        NAMES = data;
+    });
+
+fetch("../data/graves.json")
+    .then(response => response.json())
+    .then(data => {
+        GRAVES = data;
+    });
+
+
+// =============================================
 // CREATE THE MAP
 // =============================================
 
@@ -19,6 +39,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 20
 }).addTo(map);
 
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors',
+    maxZoom: 20
+}).addTo(map);
 
 // =============================================
 // OVERLAY LAIR MAP IMAGE
@@ -31,7 +55,7 @@ const lairBounds = [
 ];
 
 // Overlay lair map with some transparency
-const lairOverlay = L.imageOverlay('static/images/lair_map_transparent.png', lairBounds, {
+const lairOverlay = L.imageOverlay('images/lair_map_transparent.png', lairBounds, {
     opacity: 0.5,
     interactive: false
 }).addTo(map);
@@ -79,24 +103,35 @@ async function searchGrave() {
 
     resetMapSection(); // Clear old map results
 
-    const forename = document.getElementById("forenameBox").value.trim();
-    const surname = document.getElementById("surnameBox").value.trim();
+    const forename = document.getElementById("forenameBox").value.toLowerCase().trim();
+    const surname = document.getElementById("surnameBox").value.toLowerCase().trim();
 
-    const res = await fetch(
-    `http://127.0.0.1:8000/search?forename=${encodeURIComponent(forename)}&surname=${encodeURIComponent(surname)}`
-    );
-
-    if (!res.ok) {
-        const errorData = await res.json();
-        document.getElementById("result").innerText = errorData.detail || "Something went wrong";
+    if (!forename && !surname) {
+        document.getElementById("result").innerText = "Please enter a name";
         return;
     }
 
-    const data = await res.json();
+    function nameMatches(recordName, searchTerm) {
+        recordName = String(recordName).toLowerCase().trim();
 
-    // Output a table of results from name search
-    searchResults(data);
+        return searchTerm.includes(recordName) ||
+               recordName.includes(searchTerm);
+    }
+
+    const matches = NAMES.filter(row =>
+        nameMatches(row.First_Name, forename) &&
+        nameMatches(row.Surname, surname)
+    );
+
+    if (matches.length === 0) {
+        document.getElementById("result").innerText = "Name not found";
+        return;
+    }
+
+    searchResults(matches);
 }
+
+
 
 // Display results of search for forename, surname
 function searchResults(data) {
@@ -137,17 +172,43 @@ function searchResults(data) {
 
 // Fetch grave data including latitude, longitude
 async function showGrave(objectID) {
-    const res = await fetch(
-        `http://127.0.0.1:8000/grave/${objectID}`
-    );
+    const match = NAMES.find(row => Number(row.OBJECTID) === Number(objectID));
 
-    const grave = await res.json();
+    if (!match) {
+        document.getElementById("result").innerText = "Record not found";
+        return;
+    }
+
+    let graveNumber = match.Number;
+    graveNumber = graveNumber ? String(graveNumber) : null;
+
+    let section = graveNumber ? (match.Section || "Main") : null;
+
+    // Find grave GPS data
+    const key = `${section}-${graveNumber}`;
+    const grave = GRAVES[key] || {};
+
+    // Find people at the same grave
+    let people;
+
+    if (graveNumber) {
+        people = NAMES.filter(person =>
+            String(person.Number) === String(graveNumber) &&
+            (
+                person.Section === section ||
+                (section === "Main" && !person.Section)
+            )
+        );
+    } else {
+        people = [match];
+    }   
+        
 
     if (grave.lat !== null && grave.lon != null) {
-        zoomToGrave(grave.lat, grave.lon, grave.section, grave.grave_number);
-        graveTitle(grave.grave_number, grave.section, grave.lat, grave.lon);
+        zoomToGrave(grave.lat, grave.lon, grave.section, graveNumber);
+        graveTitle(graveNumber, grave.section, grave.lat, grave.lon);
     
-    } else if (grave.grave_number == "None") {
+    } else if (graveNumber == "None") {
         resetMapSection(); // Clear old map results
 
         document.getElementById("graveTitle").innerHTML = `
@@ -156,17 +217,17 @@ async function showGrave(objectID) {
 
         document.getElementById("graveTableTitle").innerHTML = `
             No information available for the grave of 
-            ${grave.people[0].First_Name} ${grave.people[0].Surname}
+            ${people[0].First_Name} ${people[0].Surname}
         `;
 
         return;
 
     } else {
 
-        graveTitleEmpty(grave.grave_number, grave.subplot, grave.section)
+        graveTitleEmpty(graveNumber, grave.subplot, grave.section)
     }
 
-    populateTable(grave.people, grave.section, grave.grave_number);
+    populateTable(people, grave.section, graveNumber);
 }
 
 
