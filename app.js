@@ -51,10 +51,10 @@ const lairBounds = [
 ];
 
 // Overlay lair map with some transparency
-const lairOverlay = L.imageOverlay('images/lair_map_transparent.png', lairBounds, {
-    opacity: 0.5,
-    interactive: false
-}).addTo(map);
+// const lairOverlay = L.imageOverlay('images/lair_map_transparent.png', lairBounds, {
+//     opacity: 0.5,
+//     interactive: false
+// }).addTo(map);                                           // lair map
 
 
 // =============================================
@@ -62,10 +62,11 @@ const lairOverlay = L.imageOverlay('images/lair_map_transparent.png', lairBounds
 // =============================================
 
 const baseMaps = {};
-const overlayMaps = {
-    "Lair Map": lairOverlay
-};
-L.control.layers(baseMaps, overlayMaps).addTo(map);
+// const overlayMaps = {                                    // lair map
+//     "Lair Map": lairOverlay
+// };
+// L.control.layers(baseMaps, overlayMaps).addTo(map);      // lair map
+L.control.layers(baseMaps).addTo(map);
 
 let marker = null; // Declare grave marker so all functions below see and update
 
