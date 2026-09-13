@@ -8,13 +8,13 @@
 let NAMES = [];
 let GRAVES = [];
 
-fetch("/data/names.json")
+fetch("./data/names.json")
     .then(response => response.json())
     .then(data => {
         NAMES = data;
     });
 
-fetch("/data/graves.json")
+fetch("./data/graves.json")
     .then(response => response.json())
     .then(data => {
         GRAVES = data;
