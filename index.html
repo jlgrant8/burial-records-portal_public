@@ -10,6 +10,11 @@
     />
     <link rel="stylesheet" href="style.css?v=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Burial Records">
 </head>
 
 <body>
@@ -56,6 +61,11 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script src="app.js?v=1"></script>
     </div>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("./sw.js");
+        }
+    </script>
 </body>
 <footer>
     <p>
